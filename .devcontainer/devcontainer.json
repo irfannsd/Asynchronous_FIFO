@@ -1,0 +1,16 @@
+{
+  "name": "Verilog Codespace",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "sudo apt update && sudo apt install -y iverilog gtkwave yosys pipx && pipx ensurepath && pipx install yowasp-yosys",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "leafvmaple.verilog",
+        "lramseyer.vaporview",
+        "teros-technology.teroshdl",
+        "mshr-h.veriloghdl",
+        "vscode-icons-team.vscode-icons"
+      ]
+    }
+  }
+}

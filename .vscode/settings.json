@@ -1,0 +1,11 @@
+{
+  // Show nested folders separately
+  "explorer.compactFolders": false,
+
+  // Verilog file associations
+  "files.associations": {
+    "*.v": "verilog",
+    "*.sv": "systemverilog"
+  }
+
+}
